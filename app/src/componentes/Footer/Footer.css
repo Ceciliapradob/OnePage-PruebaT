@@ -1,0 +1,92 @@
+.footer-section {
+    background-color: #01243f;
+    padding: 60px 0;
+  
+}
+.containerFooter{
+    margin-top: 5%;
+    
+}
+.footer-section h5 {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #a9a8a8;
+    font-size: 14px;
+}
+
+.footer-section .icon-row {
+    margin-top: 20px;
+}
+
+.footer-section .icon-row i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    color: #a9a8a8;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.iconsR{
+    color: white;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+.filaContainer{
+    margin-left: 5%;
+}
+
+.filaContainer2{
+    margin-left: 3%;
+}
+.containerRight{
+    margin-left: 25%;
+}
+
+/* @media screen and (max-width:468px){
+   
+} */
+/* Footer.css */
+
+@media screen and (max-width: 468px) {
+    .col-md-6 {
+      flex-direction: column; /* Cambia la dirección a una columna */
+      align-items: center; /* Centra los elementos */
+      justify-content: center; /* Centra los elementos */
+    }
+  
+    .col-md-6 .row {
+      flex-direction: row; /* Cambia la dirección de los elementos internos a una fila */
+      justify-content: space-around; /* Distribuye los elementos de manera equitativa */
+    }
+  
+    .col-md-6 .row .col-md-4 {
+      width: auto; /* Ajusta el ancho automáticamente para adaptarse al contenido */
+      margin: 0; /* Elimina el margen */
+    }
+    .containerRight{
+        margin-top: 6%;
+        margin-left: 10%;
+    }
+    
+.filaContainer2{
+    margin-right: 30%;
+}
+  }
+  

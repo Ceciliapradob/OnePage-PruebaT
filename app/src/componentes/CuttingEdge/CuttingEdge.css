@@ -1,0 +1,110 @@
+/* CuttingEdge.css */
+.cutting-edge-section {
+    background-color: #2185e8;
+    padding: 50px 0;
+
+}
+
+
+.subtitle {
+    font-size: 24px;
+    
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text {
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.608);
+}
+
+.icon-container {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.icon-container .row {
+    margin-bottom: 25px;
+}
+
+.icons {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.containerPadre {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+  
+    margin-left: 15%;
+    
+    margin-right: 10%;
+ 
+    margin-top: 5%;
+}
+
+.icon-container {
+
+    flex: 1;
+    
+    text-align: right;
+   
+    margin-left: 40%;
+    
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 26px;
+    margin-right: 10%;
+
+}
+
+/*QUERIES*/
+/* CuttingEdge.css */
+
+@media screen and (max-width: 468px) {
+    .containerPadre {
+      flex-direction: column-reverse; /* Cambia la dirección de la columna */
+      margin-left: 1%; /* Ajusta el margen izquierdo */
+     
+    }
+  
+    .icon-container, .text-container {
+      text-align: center; /* Centra el contenido */
+      margin-left: 0; /* Elimina el margen izquierdo */
+      margin-right: 0; /* Elimina el margen derecho */
+      padding: 0 15px; /* Agrega un poco de espacio alrededor del contenido */
+    }
+  
+    .icons {
+      font-size: 40px; /* Reduce el tamaño de los iconos */
+    }
+  
+    .subtitle {
+      font-size: 22px; /* Reduce el tamaño del subtítulo */
+      margin-bottom: 10px; /* Ajusta el margen inferior */
+    }
+  
+    .text {
+      font-size: 14px; /* Reduce el tamaño del texto */
+      margin-bottom: 20px; /* Ajusta el margen inferior */
+      font-weight: bold;
+      
+    }
+  }
+  
+@media screen and (min-width:768px) {
+    .icon-container {
+
+        
+       
+        margin-left: 33%;
+        
+    }
+}

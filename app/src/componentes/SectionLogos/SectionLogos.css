@@ -1,0 +1,72 @@
+/* SectionLogos.css */
+.imagenes-section {
+    background-color: #f0f5f9;
+    padding: 50px 0;
+    height: 400px;
+}
+
+.imagen {
+    max-width: 100px; /* Ajusta el ancho máximo de las imágenes */
+    margin: 0 33px; /* Margen entre las imágenes */
+}
+
+.margen {
+    flex: 1;
+}
+
+.card {
+    margin-top: 20px;
+    height: 200px; /* Ajusta la altura de las tarjetas */
+    width: 80%; /* Ajusta el ancho de las tarjetas */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+.bg-light-blue {
+    background-color: #2185e8; /* Color de fondo azul claro */
+    border-radius: 0;
+}
+
+.card-title,
+.card-text {
+    color: white; /* Color del título y el texto */
+    text-align:justify;
+}
+
+.btn-outline-white {
+    color: #fff; /* Color del texto del botón */
+    border-color: #fff; /* Color del borde del botón */
+}
+
+.card-text {
+    margin-top: 20px; /* Ajusta el margen superior del texto */
+}
+
+.btn {
+    width: 120px; /* Ajusta el ancho del botón */
+    margin-right: 70%;
+}
+
+
+@media screen and (max-width:468px) {
+    .imagenes-section {
+       
+        height: 800px;
+    }
+}
+@media screen and (min-width:768px) {
+    .imagenes-section {
+       
+        height: 450px;
+    }
+}

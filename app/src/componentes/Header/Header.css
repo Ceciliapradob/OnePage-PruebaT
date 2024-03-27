@@ -1,0 +1,144 @@
+header {
+  background-color: #0f084f;
+  /* Cambia este color al azul oscuro deseado */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-item {
+  font-weight: bold;
+}
+
+.right-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.right-items ul li {
+  margin-left: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*MEDIA QUERIES*/
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .right-items {
+    position: relative;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+
+  .right-items ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0f084f;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+   /* Capa de fondo semi transparente */
+   .menu-background {
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Color semi transparente */
+    z-index: 999; /* Asegura que esté por encima de todo */
+  }
+
+  .menu-active ul {
+    display: block;
+    
+  }
+
+  .right-items ul.menu-active {
+    display: block;
+  }
+
+  /* Otros estilos para los elementos del menú */
+  .right-items ul li {
+    margin: 10px 20px;
+    font-size: 16px;
+  }
+  /* Resaltar elementos del menú */
+  .right-items ul li {
+    cursor: pointer;
+    width: 100px;
+    margin: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    padding:10px; /* Espaciado interno */
+  }
+
+  .right-items ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi transparente al pasar el mouse */
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  header{
+    flex-direction: row-reverse;
+    
+    padding: 10px 20px; /* Añadir relleno al contenedor */
+  }
+  
+
+  
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+
+  .right-items {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-items ul {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    background-color: #0f084f;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .menu-active ul {
+    display: block;
+  }
+
+  .right-items ul.menu-active {
+    display: block;
+  }
+
+  /* Estilos para los elementos del menú */
+  .right-items ul li {
+    width: 120px;
+    margin: 15px 0;
+    background-color: rgba(9, 9, 9, 0.9); /* Fondo semi transparente */
+    font-weight: bold;
+ 
+  }
+}
+
+
+/*-------------*/

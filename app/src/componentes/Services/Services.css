@@ -1,0 +1,72 @@
+/* ServicesSection.css */
+.services-section{
+    background-color: #0f084f;
+    height: 500px;
+}
+.service-card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    height: 350px;
+    width: 300px;
+    margin-bottom: 20px; /* Ajusta el margen inferior */
+    
+}
+  
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.title-card, .content-card{
+    color: black;
+    text-align: center;
+   
+}
+
+.card-container{
+    margin: 0 2%;
+}
+h4{
+    font-size: 17px;
+    text-align: center;
+}
+.containerBtn{
+    margin-left: 24%;
+    
+}
+i{
+    text-align: center;
+   
+}
+.containerContent, .containerBtn{
+    margin-top: 33px;
+}
+
+@media screen and (max-width: 468px){
+    .services-section{
+        height: 15%;
+    }
+    .service-card{
+        margin: auto;
+        height: 300px;
+    }
+    .contentSection{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* ServicesSection.css */
+@media screen and (max-width: 768px){
+    .services-section{
+        height: 10%;
+    }
+    
+    .service-card{
+        height: 350px;
+    }
+    
+    .card-container{
+        margin: 0 auto 20px; /* Centra horizontalmente y agrega margen inferior */
+        width: 300px; /* Ancho de las tarjetas */
+    }
+}

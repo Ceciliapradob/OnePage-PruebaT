@@ -1,0 +1,86 @@
+/* Main.css */
+
+main {
+    background-color: #0f084f; ; /* Cambia este color al azul oscuro deseado */
+    color: white;
+    padding: 20px;
+    height: 450px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 8% 15%;
+
+  }
+  
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .learn-more {
+    border: 2px solid black;
+    color: white;
+    background-color: transparent;
+    padding: 5px 17px;
+    margin-right: 10px;
+  }
+  
+  .our-projects {
+    background-color: #007bff; /* Cambia este color al azul claro deseado */
+    color: white;
+    border: none;
+   
+    padding: 5px 17px;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .learn-more,
+    .our-projects {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+
+  /*QUERIES*/
+/* Main.css */
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 468px) {
+  main {
+    height: auto; /* Altura automática */
+    padding: 40px 20px; /* Ajustar el relleno */
+    
+  }
+
+  .content {
+    margin: 15% 13%; /* Ajustar el margen */
+  }
+
+  .subtitle h2 {
+    font-size: 24px; /* Tamaño de fuente más pequeño */
+  }
+
+  p {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    margin-top: 20px; /* Ajustar el margen superior */
+  }
+
+  .buttons {
+    margin-top: 30px; /* Ajustar el margen superior */
+  }
+
+  .learn-more,
+  .our-projects {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    padding: 8px 12px; /* Ajustar el relleno */
+  }
+}
